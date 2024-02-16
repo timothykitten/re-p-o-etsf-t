@@ -1,6 +1,6 @@
 name: java-build
 run-name: java-build is java-build ing
-on: [push]
+on: [push, workflow_dispatch]
 jobs:
   build:
     runs-on: ubuntu-latest
