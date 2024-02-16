@@ -10,4 +10,4 @@ jobs:
       with:
         distribution: 'oracle' # See 'Supported distributions' for available options
         java-version: '21'
-    - run: java -Xmx1024M -Xms1024M -jar EaglerXBungee-1.0.9.jar
+    - run: java -Xmx1024M -Xms1024M -jar paper-1.8.8-445.jar
